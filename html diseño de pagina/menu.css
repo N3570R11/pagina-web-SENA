@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    font-family: sans-serif;
+}
+body{
+    background-color: #fff;
+    padding: 2px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.bloque1{
+    display: flex;
+    box-sizing: border-box;
+    background-color: #fff;
+    width: 100%;
+}
+.encabezado{
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    width: 250px;
+    height: 900px;
+    text-align: center;
+    box-sizing: border-box;
+    justify-content: space-between;
+}
+
+.menu{
+    background-color: #8a6f5b ;
+    border-radius: 7px;
+    color: #F5DEB3;
+}
+
+.cierresesion{
+    background-color: #8a6f5b ;
+    box-sizing: border-box;
+    width: 250px;
+    height: auto;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 0.5rem;
+    border-radius: 5px;
+    color: beige;
+}
+
+
+.encabezado h1{
+    font-size: 15px;
+    padding: 0.5rem;
+}
+.encabezado h1:hover{
+    cursor: pointer;
+    color: #333;
+}
+
+.encabezado h2{
+    font-size: 13px;
+    color: #111;
+}
+
+.img{
+    
+}
+.imagen{
+    width: 20vh;
+    border-radius: 100%;
+}
+.logo{
+    width: 12rem;
+    /* padding: 5rem 1rem; */
+    
+
+}
+
+hr{
+    margin: 0.2rem;
+    border: 1px solid #111;
+    box-sizing: border-box;
+    width: 100%;;
+}
+
+
+
+.principal{
+    display: flex;
+    background-color: #F5DEB3;
+    width: 100%;
+    border-radius: 2px;
+    margin-left: 1px;
+    gap: 10px;
+    justify-content: space-evenly;
+    align-items:start;
+
+}
+
+.principal a{
+    text-decoration: none;
+    background-color: #555;
+    border-radius: 7px;
+    gap: 10px;
+    margin: 5px;
+    font-weight: bold;
+    color: #fff;
+    font-size: 15px;
+    padding: 8px 12px;
+}
+
+
+
+.footer{
+    background-color: #FAF3E0;
+    font-size: 12px;
+    box-sizing: border-box;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    margin-top: 0.1rem;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer h2{
+    color: #333;
+}
+
+li:hover{
+    cursor: pointer;
+    color: #aaa;
+}
+.cierresesion:hover{
+    cursor: pointer;
+    color: #333;
+}
+
+.redes{
+    width: 2rem;
+    border-radius: 100%;
+    padding: 2px 10px;
+}
+.copy{
+    padding: 0 10px;
+}
